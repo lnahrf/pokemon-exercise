@@ -16,7 +16,7 @@ const initListeners = () => {
         injectPokemon()
     })
 
-    document.addEventListener(KEYS.selectedSpecies, async () => {
+    document.addEventListener(KEYS.selectedSpecies, () => {
         injectChooseVariety()
         injectProgressBar(66)
     })
